@@ -138,7 +138,11 @@ function cartElement($productimg, $productname, $productprice, $productid){
                             <h5 class="font-weight-bold">Total</h5>
                             <h5 class="font-weight-bold"><?php echo number_format($total); ?></h5>
                         </div>
-                        <button class="btn btn-block btn-primary my-3 py-3">Proceed To Checkout</button>
+                        <button class="btn btn-block btn-primary my-3 py-3">
+                        <a href ="checkout.php" style="text-decoration: none; color:white" >
+                            Proceed To Checkout
+                        </a>
+                        </button>
                     </div>
                 </div>
             </div>

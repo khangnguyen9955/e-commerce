@@ -140,7 +140,7 @@ $product_shuffle = $product->getData();
                         <div class="card product-item border-0 mb-4">
 
                             <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                <img class="img-fluid w-100" src="./asset/<?php echo $item['image'] ?>" alt="">
+                                <img class="img-fluid w-100" src="./asset/<?php echo $item['image'] ;?>" alt="">
                             </div>
                             <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                 <h6 class="text-truncate mb-3"><?php echo $item['name'] ?></h6>

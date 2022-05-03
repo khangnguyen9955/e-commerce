@@ -11,8 +11,8 @@ $category = $product->getCategory();
             </a>
             <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 1;">
                 <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
-                    <?php foreach ($category as $item) {?>
-                        <a href="<?php printf('%s?category_id=%s','shopID.php', $item['categoryID']);?>"  class="nav-item nav-link"><?php echo $item['name'] ?></a>
+                    <?php foreach ($category as $item1) {?>
+                        <a href="<?php printf('%s?category_id=%s','shopID.php', $item1['categoryID']);?>"  class="nav-item nav-link"><?php echo $item1['name'] ?></a>
                     <?php } ?>
                 </div>
             </nav>

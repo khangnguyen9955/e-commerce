@@ -4,6 +4,7 @@ $product_relevant = $product->getData();
     $product_id = $_GET['product_id'] ?? 1;
     foreach($product->getData() as $item):
        if($item['productID'] == $product_id):
+
 ?>
 <?php include("_navbar2.php");?>
 
@@ -49,7 +50,7 @@ $product_relevant = $product->getData();
             </div>
 
             <div class="col-lg-7 pb-5">
-                <h3 class="font-weight-semi-bold"><?php echo $item['name']; ?> </h3>
+                <h3 class="font-weight-semi-bold"><?php echo $item['name'];  ?> </h3>
                 <div class="d-flex mb-3">
                     <div class="text-primary mr-2">
                         <small class="fas fa-star"></small>
